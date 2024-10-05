@@ -123,4 +123,4 @@ p <- ganttrify(
   font_family = "Roboto Condensed"
 )
 
-ggplot2::ggsave("gantt.png", p, width = 20, height = 10, dpi = 300, bg = "white")
+ggplot2::ggsave("gantt/plots/gantt.png", p, width = 20, height = 10, dpi = 300, bg = "white")

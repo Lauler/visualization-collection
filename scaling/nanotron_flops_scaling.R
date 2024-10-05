@@ -72,4 +72,4 @@ p <- ggplot(df, aes(x = Nodes, y = `Tokens/s`)) +
 
 
 # Save the plot
-ggsave("token_scaling.png", p, width = 10, height = 6, units = "in", dpi = 300, bg = "white")
+ggsave("scaling/plots/token_scaling.png", p, width = 10, height = 6, units = "in", dpi = 300, bg = "white")
